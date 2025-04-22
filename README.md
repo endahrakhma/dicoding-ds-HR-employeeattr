@@ -48,5 +48,9 @@ ML tasks:
         
 #### Rekomendasi Aksi
 
-    1. 
-    2.
+    1. Ciptakan onboarding yang kuat dan budaya kerja yang positif, terbuka, dan kolaboratif sehingga karyawan merasa diterima, siap kerja dan nyaman bekerja.
+    2. Sediakan ruang bagi karyawan untuk memberi masukan (survey, feedback rutin)
+    3. 1 job level memiliki monthly income yang bervariasi, maka sediakan jalur karier yang jelas (career path) dan promosi berbasis performa kinerja.
+    4. Adanya fenomena overtime, pastikan beban kerja tidak berlebihan dan jam kerja wajar. 1 job level beban kerja yang merata.
+    5. Pastikan gaji kompetitif di industri sejenis.
+    6. Tambahkan insentif finasial ataupun non-finansial, seperti bonus kinerja, cuti tambahan terutama pada karyawan yang bekerja overtime.
