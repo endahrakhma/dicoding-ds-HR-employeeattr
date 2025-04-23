@@ -6,7 +6,7 @@ Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri 
 ## Permasalahan
 Untuk mencegah attrition rate semakin tinggi, maka diperlukan identifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut.
 ## Cakupan Proyek
-Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi. Model terbaik yaitu dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju. Tool visualisasi data yang digunakan adalah Looker Studio.
+Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi. Model terbaik yaitu dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju.
     
 ## Persiapan
 [Sumber Data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
@@ -41,6 +41,7 @@ ML tasks:
         - pendapatan per bulan : 1000-5000
         - nilai kepuasan pada pekerjaan : 3
         - nilai kepuasan pada lingkungan kerja : 1
+        - stock option level : 0
     c. Secara umum, sebagian besar karyawan:
         - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
         - berdedikasi tinggi pada pekerjaan, mereka puas pada pekerjaan yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime
