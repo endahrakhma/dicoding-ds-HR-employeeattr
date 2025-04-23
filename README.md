@@ -6,7 +6,7 @@ Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri 
 ## Permasalahan
 Untuk mencegah attrition rate semakin tinggi, maka diperlukan identifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut.
 ## Cakupan Proyek
-Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi. Model terbaik yaitu dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model dapat diimplementasikan untuk prediksi attrition yang keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik untuk mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju. Tool visualisasi data yang digunakan adalah Looker Studio.
+Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi. Model terbaik yaitu dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju. Tool visualisasi data yang digunakan adalah Looker Studio.
     
 ## Persiapan
 [Sumber Data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
@@ -30,8 +30,8 @@ ML tasks:
   HR Dashboard ini dibuat menggunakan [Looker Studio](https://lookerstudio.google.com/reporting/93891af4-4da9-4e63-b390-df9be315ee24).
 
 #### Kesimpulan
-
-    a. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
+    a. Top 10 fitur penting yang mempengaruhi model antara lain OverTime, TotalWorkingYears, MonthlyIncome, JobSatisfaction, EnvironmentSatisfaction, Age, JobLevel, YearsAtCompany, MaritalStatus, StockOptionLevel yang mana akan kita fokuskan pada visualisasi dalam dashboard.
+    b. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
         - pria, single
         - usia 31-35 tahun
         - berpengalaman kerja 5+
@@ -41,16 +41,18 @@ ML tasks:
         - pendapatan per bulan : 1000-5000
         - nilai kepuasan pada pekerjaan : 3
         - nilai kepuasan pada lingkungan kerja : 1
-    b. Secara umum, sebagian besar karyawan:
+    c. Secara umum, sebagian besar karyawan:
         - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
-        - berdedikasi tinggi pada pekerjaan, beberapa karyawan pada setiap job roles bekerja overtime
+        - berdedikasi tinggi pada pekerjaan, mereka puas pada pekerjaan yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime
         - bekerja di perusahaan selama 2-4 tahun
+        - tidak diberikan stock option sama sekali, atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
         
 #### Rekomendasi Aksi
 
     1. Ciptakan onboarding yang kuat dan budaya kerja yang positif, terbuka, dan kolaboratif sehingga karyawan merasa diterima, siap kerja dan nyaman bekerja.
     2. Sediakan ruang bagi karyawan untuk memberi masukan (survey, feedback rutin)
-    3. 1 job level memiliki monthly income yang bervariasi, maka sediakan jalur karier yang jelas (career path) dan promosi berbasis performa kinerja.
+    3. 1 job level memiliki monthly income yang bervariasi, maka sediakan jalur karier (career path) dan promosi berbasis kinerja yang jelas.
     4. Adanya fenomena overtime, pastikan beban kerja tidak berlebihan dan jam kerja wajar. 1 job level beban kerja yang merata.
     5. Pastikan gaji kompetitif di industri sejenis.
     6. Tambahkan insentif finasial ataupun non-finansial, seperti bonus kinerja, cuti tambahan terutama pada karyawan yang bekerja overtime.
+    7. Stock option adalah hak (bukan kewajiban) yang diberikan perusahaan kepada karyawannya untuk membeli saham perusahaan di harga tertentu (strike price) dalam jangka waktu tertentu. Maka perlu ditinjau ulang kebijakan terkait Stock Option Level yang diberikan kepada karyawan berdasarkan posisi, masa kerja, atau level tanggung jawab mereka dalam rangka memberikan insentif jangka panjang kepada karyawan agar tetap bekerja di perusahaan dan turut berkontribusi terhadap pertumbuhan perusahaan.
