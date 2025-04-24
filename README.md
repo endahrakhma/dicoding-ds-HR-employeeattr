@@ -46,7 +46,7 @@ ML tasks:
         - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
         - berdedikasi tinggi pada pekerjaan, mereka puas pada pekerjaan yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime
         - bekerja di perusahaan selama 2-4 tahun
-        - tidak diberikan stock option sama sekali, atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
+        - Stock Option Level 0, tidak diberikan atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
         
 #### Rekomendasi Aksi
 
@@ -56,4 +56,4 @@ ML tasks:
 4. Adanya fenomena overtime, pastikan beban kerja tidak berlebihan dan jam kerja wajar. 1 job level beban kerja yang merata.
 5. Pastikan gaji kompetitif di industri sejenis.
 6. Tambahkan insentif finasial ataupun non-finansial, seperti bonus kinerja, cuti tambahan terutama pada karyawan yang bekerja overtime.
-7. Stock option adalah hak (bukan kewajiban) yang diberikan perusahaan kepada karyawannya untuk membeli saham perusahaan di harga tertentu (strike price) dalam jangka waktu tertentu. Maka perlu ditinjau ulang kebijakan terkait Stock Option Level yang diberikan kepada karyawan berdasarkan posisi, masa kerja, atau level tanggung jawab mereka dalam rangka memberikan insentif jangka panjang kepada karyawan agar tetap bekerja di perusahaan dan turut berkontribusi terhadap pertumbuhan perusahaan.
+7. Stock option adalah hak (bukan kewajiban) yang diberikan perusahaan kepada karyawannya untuk membeli saham perusahaan di harga tertentu (strike price) dalam jangka waktu tertentu. Maka perlu ditinjau ulang kebijakan terkait Stock Option Level yang diberikan kepada karyawan berdasarkan job roles, masa kerja, atau job level/tanggung jawab mereka dalam rangka memberikan insentif jangka panjang kepada karyawan agar tetap bekerja di perusahaan dan turut berkontribusi terhadap pertumbuhan perusahaan.
