@@ -31,29 +31,29 @@ ML tasks:
 
 #### Kesimpulan
     a. Top 10 fitur penting yang mempengaruhi model antara lain OverTime, TotalWorkingYears, MonthlyIncome, JobSatisfaction, EnvironmentSatisfaction, Age, JobLevel, YearsAtCompany, MaritalStatus, StockOptionLevel yang mana akan kita fokuskan pada visualisasi dalam dashboard.
-    b. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
+    b. Secara umum, sebagian besar karyawan:
+    - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
+    - berdedikasi tinggi pada pekerjaan, mereka sangat puas pada pekerjaan yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime karena kenyamanan bekerja di perusahaan dirasakan baik dengan nilai 3
+    - bekerja di perusahaan selama 2-4 tahun
+    - Stock Option Level 0, tidak diberikan atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
+    c. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
         - pria, single
         - usia 31-35 tahun
         - berpengalaman kerja 5+
         - lama bekerja di perusahaan 2-4 tahun
-        - job roles : laboratory technician
+        - job roles : laboratory technician, research scientist
         - job level : 1
         - pendapatan per bulan : 1000-5000
         - nilai kepuasan pada pekerjaan : 3
         - nilai kepuasan pada lingkungan kerja : 1
         - stock option level : 0
-    c. Secara umum, sebagian besar karyawan:
-        - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
-        - berdedikasi tinggi pada pekerjaan, mereka puas pada pekerjaan yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime
-        - bekerja di perusahaan selama 2-4 tahun
-        - Stock Option Level 0, tidak diberikan atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
-        
+
 #### Rekomendasi Aksi
 
 1. Ciptakan onboarding yang kuat dan budaya kerja yang positif, terbuka, dan kolaboratif sehingga karyawan merasa diterima, siap kerja dan nyaman bekerja.
 2. Sediakan ruang bagi karyawan untuk memberi masukan (survey, feedback rutin)
-3. 1 job level memiliki monthly income yang bervariasi, maka sediakan jalur karier (career path) dan promosi berbasis kinerja yang jelas.
+3. 1 job level memiliki monthly income yang bervariasi, maka sediakan jalur karier (career path) dan promosi berbasis kinerja yang jelas. Pastikan karyawan tahu bagaimana mereka bisa naik level atau meningkatkan keterampilan.
 4. Adanya fenomena overtime, pastikan beban kerja tidak berlebihan dan jam kerja wajar. 1 job level beban kerja yang merata.
-5. Pastikan gaji kompetitif di industri sejenis.
+5. Terapkan sistem kerja remote/hybrid jika memungkinkan karena overtime tidak bisa dihindari.
 6. Tambahkan insentif finasial ataupun non-finansial, seperti bonus kinerja, cuti tambahan terutama pada karyawan yang bekerja overtime.
-7. Stock option adalah hak (bukan kewajiban) yang diberikan perusahaan kepada karyawannya untuk membeli saham perusahaan di harga tertentu (strike price) dalam jangka waktu tertentu. Maka perlu ditinjau ulang kebijakan terkait Stock Option Level yang diberikan kepada karyawan berdasarkan job roles, masa kerja, atau job level/tanggung jawab mereka dalam rangka memberikan insentif jangka panjang kepada karyawan agar tetap bekerja di perusahaan dan turut berkontribusi terhadap pertumbuhan perusahaan.
+7. Stock option adalah hak (bukan kewajiban) yang diberikan perusahaan kepada karyawan pada semua job level untuk membeli saham perusahaan di harga tertentu (strike price) dalam jangka waktu tertentu. Maka perlu ditinjau ulang kebijakan terkait Stock Option Level yang diberikan kepada karyawan berdasarkan job roles, masa kerja, atau job level/tanggung jawab mereka dalam rangka memberikan insentif jangka panjang kepada karyawan agar tetap bekerja di perusahaan dan turut berkontribusi terhadap pertumbuhan perusahaan.
