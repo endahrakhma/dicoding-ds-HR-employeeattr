@@ -1,33 +1,42 @@
-# Submission Pertama : Menyelesaikan Permasalahan Human Resources
-## Case Understanding
-Analisa attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) sangat penting bagi perusahaan karena memberikan gambaran yang jelas tentang kesehatan organisasi, kepuasan karyawan, dan efektivitas manajemen sumber daya manusia. Hal ini membantu HR untuk lebih tepat sasaran dalam mengintervensi area yang bermasalah.
-## Latar Belakang
-Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate hingga lebih dari 10%.
-## Permasalahan
-Untuk mencegah attrition rate semakin tinggi, maka diperlukan identifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut.
+# Proyek Akhir : Menyelesaikan Permasalahan Human Resources
+## Business Understanding
+Analisa attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) sangat penting bagi perusahaan karena memberikan gambaran yang jelas tentang kesehatan organisasi, kepuasan karyawan, dan efektivitas manajemen sumber daya manusia. Hal ini membantu HR untuk lebih tepat sasaran dalam mengintervensi area yang bermasalah. Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate hingga lebih dari 10%.
+## Permasalahan Bisnis
+Untuk mencegah attrition rate semakin tinggi, maka diperlukan identifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut. Adapun dampak yang terjadi jika attrition rate tinggi, antara lain:
+
+    - Waktu dan tenaga tim HR terpakai lebih banyak untuk mengisi kekosongan yang terus-menerus, mencari, merekrut, dan melatih karyawan baru.
+    - Karyawan baru membutuhkan waktu untuk menyesuaikan diri sehingga proyek atau proses kerja bisa terganggu akibat kurangnya tenaga kerja yang berpengalaman.
+    - Karyawan yang keluar bisa membawa pengetahuan dan pengalaman kerja/keahlian yang belum terdokumentasi dengan baik.
+    - Tingginya turnover bisa menimbulkan ketidakpastian, stres, dan ketidaknyamanan di antara karyawan yang tersisa.
+    - Perusahaan dengan tingkat turnover tinggi bisa dikenal buruk di kalangan pencari kerja.
+    
 ## Cakupan Proyek
-Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi. Model terbaik yaitu dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju.
+Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi apakah ID karyawan tersebut berpotensi mengundurkan diri atau tidak yang direpresentasikan dengan nilai 1 atau 0. Model terbaik yaitu model dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model kemudian dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju.
     
 ## Persiapan
-[Sumber Data](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
+Sumber Data : [https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
-ML tasks:
+Setup Environment :
+
+    Instal beberapa library Python yang dibutuhkan untuk melakukan ML tasks, antara lain: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, imblearn module, pickle module
+
+ML tasks :
 
     a. Data Collection dan Data Understanding
-    b. Exploratory Data Analysis (EDA) : analisa statistik dan visualisasi
+    b. Exploratory Data Analysis (EDA) : analisa statistik dan visualisasi grafiknya
     c. Data Preprocessing : Feature Engineering, encoding, outlier handling, feature scaling
-    d. Modeling : splitting data, over sampling dengan SMOTE, model selection (memilih algoritma ML classifier yang tepat)
+    d. Modeling : splitting data, over sampling dengan SMOTE (Synthetic Minority Over-Sampling Technique) , model selection (memilih algoritma ML classifier yang tepat)
     e. Evaluasi : confussion matrix (accuracy)
     f. Optimasi model : hyperparameter tuning, gridSearchCV
     g. Feature Importance : menentukan top 10 fitur penting dalam model 
     h. Membuat pipeline model yang digunakan
     h. Penyimpanan model : format .pkl
     i. Implementasi model : prediksi attrition
-    j. Penyimpanan dataset hasil prediksi : reporting dan visualisasi dashboard
+    j. Penyimpanan dataset hasil prediksi : reporting untuk visualisasi dashboard
 
-## HR Dashboard
+## Business Dashboard
 
-  HR Dashboard ini dibuat menggunakan [Looker Studio](https://lookerstudio.google.com/reporting/93891af4-4da9-4e63-b390-df9be315ee24).
+  Business Dashboard ini dibuat menggunakan [Looker Studio](https://lookerstudio.google.com/reporting/93891af4-4da9-4e63-b390-df9be315ee24).
 
 #### Kesimpulan
     a. Top 10 fitur penting yang mempengaruhi model antara lain OverTime, TotalWorkingYears, MonthlyIncome, JobSatisfaction, EnvironmentSatisfaction, Age, JobLevel, YearsAtCompany, MaritalStatus, StockOptionLevel yang mana akan kita fokuskan pada visualisasi dalam dashboard.
