@@ -18,7 +18,8 @@ Sumber Data : [https://github.com/dicodingacademy/dicoding_dataset/tree/main/emp
 
 Setup Environment :
 
-    Instal beberapa library Python yang dibutuhkan untuk melakukan ML tasks, antara lain: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, imblearn module, pickle module
+    - Jupyter Notebook : instal beberapa library Python yang dibutuhkan untuk melakukan ML tasks (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, imblearn module, pickle module)
+    - BI tool : Looker Studio
 
 ML tasks :
 
@@ -37,16 +38,16 @@ ML tasks :
 ## Business Dashboard
 
   Business Dashboard ini dibuat menggunakan [Looker Studio](https://lookerstudio.google.com/reporting/93891af4-4da9-4e63-b390-df9be315ee24).
+  Top 10 fitur penting yang mempengaruhi model antara lain: OverTime, TotalWorkingYears, MonthlyIncome, JobSatisfaction, EnvironmentSatisfaction, Age, JobLevel, YearsAtCompany, MaritalStatus, StockOptionLevel yang mana akan kita fokuskan pada visualisasi dalam dashboard.
 
 #### Kesimpulan
-    a. Top 10 fitur penting yang mempengaruhi model antara lain OverTime, TotalWorkingYears, MonthlyIncome, JobSatisfaction, EnvironmentSatisfaction, Age, JobLevel, YearsAtCompany, MaritalStatus, StockOptionLevel yang mana akan kita fokuskan pada visualisasi dalam dashboard.
-    b. Secara umum, sebagian besar karyawan:
+    a. Secara umum, sebagian besar karyawan:
         - berjenis kelamin pria berstatus menikah
         - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
         - berdedikasi tinggi pada pekerjaan, mereka sangat puas pada pekerjaan maupun lingkungan kerja yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime, dengan masing-masing nilai 4 dan 3
         - bekerja di perusahaan selama 2-4 tahun
         - Stock Option Level 0, tidak diberikan atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
-    c. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
+    b. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
         - pria, single
         - usia 31-35 tahun
         - berpengalaman kerja 5+
