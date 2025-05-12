@@ -56,7 +56,7 @@ ML tasks :
     a. Secara umum, sebagian besar karyawan:
         - berjenis kelamin pria berstatus menikah
         - memiliki performa kerja yang baik dengan nilai 3, dikarenakan sudah berpengalaman kerja selama 5+ tahun
-        - berdedikasi tinggi pada pekerjaan, mereka sangat puas pada pekerjaan maupun lingkungan kerja yang dijalankan dan beberapa karyawan pada setiap job roles bekerja overtime, dengan masing-masing nilai 4 dan 3
+        - berdedikasi tinggi pada pekerjaan, mereka sangat puas pada pekerjaan yang dijalankan maupun lingkungan kerja berada, dengan masing-masing nilai 4 dan 3 dan beberapa karyawan pada setiap job roles bekerja overtime
         - bekerja di perusahaan selama 2-4 tahun
         - Stock Option Level 0, tidak diberikan atau diberikan jumlah minimum/insignifikan dari opsi saham oleh perusahaan, dikarenakan belum eligible atau mungkin statusnya kontrak bukan full-time.
     b. Attrition rate sebesar 12,6% atau sebanyak 185 orang, didominasi oleh:
