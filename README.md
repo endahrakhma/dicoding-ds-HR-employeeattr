@@ -64,6 +64,7 @@ ML tasks :
         - lama bekerja di perusahaan 2-4 tahun
         - job roles : laboratory technician, research scientist
         - job level : 1
+        - bekerja overtime
         - pendapatan per bulan : 1000-5000
         - nilai kepuasan pada pekerjaan : 3
         - nilai kepuasan pada lingkungan kerja : 1
