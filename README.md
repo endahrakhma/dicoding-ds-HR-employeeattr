@@ -14,12 +14,24 @@ Untuk mencegah attrition rate semakin tinggi, maka diperlukan identifikasi berba
 Setelah pendefinisian masalah, kita kumpulkan data yang diperlukan dan mempelajari/memahaminya sehingga dapat memformulasikan masalah menjadi bentuk ML task, dalam kasus ini adalah klasifikasi apakah ID karyawan tersebut berpotensi mengundurkan diri atau tidak yang direpresentasikan dengan nilai 1 atau 0. Model terbaik yaitu model dengan akurasi yang optimal diperoleh setelah data preprocessing sampai optimasi model kemudian dapat diimplementasikan untuk prediksi attrition yang nantinya keluar sebagai report. Report inilah yang dimanfaatkan untuk membangun dashboard dengan visualisasi data yang menarik sehingga dapat mengetahui dengan mudah faktor-faktor yang mempengaruhi attrition rate Jaya Jaya Maju.
     
 ## Persiapan
-Sumber Data : [https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
+Sumber Data : Data berisi rincian demografi, metrik terkait pekerjaan, dan attrition flag berupa label 0 dan 1 [source link](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup Environment :
 
-    - Jupyter Notebook : instal beberapa library Python yang dibutuhkan untuk melakukan ML tasks (NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, imblearn module, pickle module)
-    - BI tool : Looker Studio
+    a. Setup Environment - Anaconda
+
+        - Create an environment: conda create --name emp-attr python=3.11
+        - Activate the environment: conda activate emp-attr
+        - Install library: pip install -r requirements.txt
+        - launch jupyter notebook
+        - executing ML tasks
+        
+    b. Setup BI tool - Looker Studio
+    
+        - Kunjungi: [https://colab.research.google.com](https://lookerstudio.google.com)
+        - Signing with google account
+        - Pilih Blank Report
+        - Add data to report: CSV File Upload
 
 ML tasks :
 
