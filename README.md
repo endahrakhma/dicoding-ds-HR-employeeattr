@@ -19,7 +19,6 @@ Sumber Data : Data berisi rincian demografi, metrik terkait pekerjaan, dan attri
 Setup Environment :
 
     a. Setup Environment - Anaconda
-
         - Create an environment: conda create --name emp-attr python=3.11
         - Activate the environment: conda activate emp-attr
         - Install library: pip install -r requirements.txt
@@ -27,8 +26,7 @@ Setup Environment :
         - executing ML tasks
         
     b. Setup BI tool - Looker Studio
-    
-        - Kunjungi: [https://colab.research.google.com](https://lookerstudio.google.com)
+        - Kunjungi: https://lookerstudio.google.com
         - Signing with google account
         - Pilih Blank Report
         - Add data to report: CSV File Upload
@@ -45,7 +43,7 @@ ML tasks :
     h. Membuat pipeline model yang digunakan
     h. Penyimpanan model : format .pkl
     i. Implementasi model : prediksi attrition
-    j. Penyimpanan dataset hasil prediksi : reporting untuk visualisasi dashboard
+    j. Penyimpanan dataset hasil prediksi : exporting CSV File untuk visualisasi dashboard
 
 ## Business Dashboard
 
